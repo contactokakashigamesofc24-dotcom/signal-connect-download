@@ -3,12 +3,12 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Mjc9828E</title>
-  <meta name="description" content="Signal-Connect.apk — arquivo compartilhado publicamente.">
+  <title>Meus APKs</title>
+  <meta name="description" content="Biblioteca pessoal de APKs Android com download direto.">
   <link rel="icon" type="image/png" href="/favicon.png">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Mjc9828E">
-  <meta property="og:description" content="1 item público: Signal-Connect.apk">
+  <meta property="og:title" content="Meus APKs">
+  <meta property="og:description" content="Arquivos Android hospedados para download direto.">
   <meta property="og:image" content="__ZAPIA_SITE_ORIGIN__/_z/og.png">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="__ZAPIA_SITE_ORIGIN__/_z/og.png">
@@ -16,93 +16,44 @@
   <meta name="theme-color" content="#171f38">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
-  <meta name="apple-mobile-web-app-title" content="Mjc9828E">
+  <meta name="apple-mobile-web-app-title" content="Meus APKs">
   <link rel="apple-touch-icon" href="__ZAPIA_SITE_URL__/apple-touch-icon.png">
   <style>
-    :root{color-scheme:dark;--bg:#171f38;--card:#202c49;--stroke:#354461;--text:#eef2fb;--muted:#a3aec3;--dim:#71809d}
-    *{box-sizing:border-box}
-    html,body{margin:0;min-height:100%;background:var(--bg);color:var(--text);font-family:Roboto,"Segoe UI",Arial,sans-serif}
-    .appbar{height:80px;border-bottom:2px solid #28344f;display:flex;align-items:center;padding:0 32px;gap:27px}
-    .hamb{font-size:22px;line-height:1;color:#9eabc1;font-weight:300}
-    .app-title{font-size:20px;font-weight:650;letter-spacing:.1px}
-    main{width:calc(100% - 40px);max-width:760px;margin:27px auto 0}
-    .folder{height:176px;border:1px solid var(--stroke);border-radius:21px;background:var(--card);padding:20px;display:flex;align-items:flex-start;position:relative;box-shadow:0 1px 2px #0b122144}
-    .folder-icon{width:55px;height:55px;flex:0 0 55px;border-radius:15px;background:#2c3957;display:grid;place-items:center;margin-top:2px;margin-right:10px;color:#f2cf50}
-    .folder-icon svg{width:30px;height:30px}
-    .folder-info{min-width:0;padding-top:1px;flex:1}
-    .folder-name{font-size:18px;line-height:23px;font-weight:650;margin-bottom:7px}
-    .folder-date{font-size:14px;line-height:19px;color:var(--muted);display:flex;gap:6px;align-items:flex-start}
-    .folder-date svg{flex:none;margin-top:2px}
-    .items{font-size:14px;line-height:20px;color:#c3ccdc;display:flex;align-items:center;gap:7px;margin-top:5px}
-    .public{height:26px;margin-top:7px;padding:0 9px;border-radius:18px;background:#2c3b5b;display:inline-flex;align-items:center;gap:5px;color:#d0d8e7;font-size:12px}
-    .public-dot{font-size:15px;color:#d2dced;line-height:1}
-    .folder-actions{display:flex;align-items:center;gap:14px;margin-left:6px}
-    .icon-button{width:47px;height:43px;border:1px solid #3b4966;border-radius:12px;background:#283552;color:#c5cede;display:grid;place-items:center}
-    .icon-button svg{width:23px;height:23px}
-    .more{font-size:24px;line-height:1;color:#9ba8bf;padding:0 1px}
-    .toolbar{height:63px;margin-top:14px;border:1px solid var(--stroke);border-radius:17px;background:var(--card);display:flex;align-items:center;justify-content:space-between;padding:0 20px;color:#aab6ca}
-    .toolbar-left{display:flex;align-items:center;gap:0}
-    .check-box{width:21px;height:21px;border:2px solid #a0aec5;border-radius:4px;display:grid;place-items:center;color:#bec9da;font-size:15px;line-height:1}
-    .toolbar-icons{display:flex;align-items:center;gap:25px}
-    .toolbar-icons svg{height:23px;width:23px;stroke:#a6b2c8;stroke-width:1.8;fill:none;stroke-linecap:round;stroke-linejoin:round}
-    .file{height:91px;margin-top:14px;border:1px solid var(--stroke);border-radius:20px;background:var(--card);display:flex;align-items:center;padding:0 14px 0 16px;gap:16px;color:inherit;text-decoration:none}
-    .file-check{width:22px;height:22px;border:2px solid #73819b;border-radius:6px;flex:none}
-    .file-icon{width:24px;height:31px;flex:none;color:#adb9cd}
-    .file-icon svg{width:24px;height:31px;stroke:currentColor;stroke-width:1.8;fill:none;stroke-linecap:round;stroke-linejoin:round}
-    .file-info{min-width:0;flex:1}
-    .file-name{font-size:16px;line-height:21px;font-weight:550;margin-bottom:4px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-    .file-date{font-size:14px;line-height:18px;color:#c3ccdc;display:flex;align-items:center;gap:5px;white-space:nowrap}
-    .file-date svg{width:15px;height:15px;stroke:#aebbd0;stroke-width:1.7;fill:none;flex:none}
-    .file-size{font-size:14px;line-height:18px;color:var(--muted);margin-top:1px}
-    .file-more{align-self:flex-start;margin-top:17px;color:#97a4ba;font-size:23px;line-height:1;padding:0 2px}
-    .report{height:52px;margin-top:10px;color:#7887a2;display:flex;align-items:center;justify-content:center;gap:8px;font-size:14px}
-    .report svg{width:16px;height:16px;stroke:currentColor;stroke-width:1.6;fill:none}
-    .spacer{height:91px}
-    footer{border-top:2px solid #293550;min-height:194px;color:#9ba8bf;text-align:center;padding:27px 18px 24px;font-size:15px;line-height:2.2}
-    .footer-row{display:flex;justify-content:center;gap:24px;flex-wrap:wrap}
-    .footer-row a{color:inherit;text-decoration:none}
-    .footer-copy{margin-top:8px;font-size:14px;line-height:1.75}
-    .heart{color:#ef4052}
-    .feedback{position:fixed;right:6px;bottom:31%;width:47px;height:51px;border-radius:17px;background:#101827;border:2px solid #070c14;display:grid;place-items:center;box-shadow:0 2px 7px #0008}
-    .feedback span{width:34px;height:34px;border-radius:50%;background:#ffb642;color:white;font-size:17px;font-weight:700;display:grid;place-items:center;border:2px solid #fff1}
-    @media(max-width:390px){.appbar{padding:0 24px;gap:24px}.folder{padding:18px}.folder-icon{width:49px;height:52px;flex-basis:49px;margin-right:9px}.folder-actions{gap:9px}.icon-button{width:42px}.toolbar{padding:0 16px}.toolbar-icons{gap:20px}.file{gap:12px;padding-left:13px}.file-date{font-size:12px}.footer-row{gap:12px 20px}}
+    :root{color-scheme:dark;--bg:#171f38;--card:#202c49;--stroke:#354461;--text:#eef2fb;--muted:#a3aec3;--blue:#b9d0ff;--red:#ffb0aa}
+    *{box-sizing:border-box}body{margin:0;min-height:100vh;background:var(--bg);color:var(--text);font-family:Roboto,"Segoe UI",Arial,sans-serif}
+    .appbar{height:76px;border-bottom:2px solid #28344f;display:flex;align-items:center;padding:0 max(24px,calc((100vw - 780px)/2));gap:24px}.hamb{font-size:22px;color:#9eabc1}.title{font-size:20px;font-weight:650;flex:1}.admin{border:1px solid #465674;border-radius:12px;background:#283552;color:#d8e1f0;padding:10px 13px;font-size:14px}
+    main{width:calc(100% - 32px);max-width:760px;margin:25px auto 70px}.folder{min-height:142px;border:1px solid var(--stroke);border-radius:21px;background:var(--card);padding:20px;display:flex;align-items:center;gap:14px;box-shadow:0 1px 2px #0b122144}.folder-icon{width:54px;height:54px;flex:none;border-radius:15px;background:#2c3957;display:grid;place-items:center;color:#f2cf50}.folder-icon svg{width:31px;height:31px}.folder-info{flex:1;min-width:0}.folder-name{font-size:19px;font-weight:650;margin-bottom:7px}.sub{font-size:14px;line-height:1.55;color:var(--muted)}.count{display:inline-flex;align-items:center;gap:7px;margin-top:6px;color:#c3ccdc;font-size:14px}.pill{display:inline-flex;margin-top:7px;padding:4px 10px;border-radius:18px;background:#2c3b5b;color:#d0d8e7;font-size:12px}.toolbar{height:59px;margin-top:14px;border:1px solid var(--stroke);border-radius:17px;background:var(--card);display:flex;align-items:center;justify-content:space-between;padding:0 18px;color:#aab6ca}.tool-left{display:flex;gap:10px;align-items:center;font-size:14px}.tool-icons{display:flex;gap:22px;align-items:center}.tool-icons svg{width:22px;height:22px;stroke:#a6b2c8;stroke-width:1.8;fill:none;stroke-linecap:round;stroke-linejoin:round}.list{margin-top:14px;display:grid;gap:10px}.file{min-height:83px;border:1px solid var(--stroke);border-radius:18px;background:var(--card);display:flex;align-items:center;padding:12px 14px;gap:14px;color:inherit;text-decoration:none}.doc{width:25px;height:31px;flex:none;color:#adb9cd}.doc svg{width:25px;height:31px;stroke:currentColor;stroke-width:1.8;fill:none}.file-info{min-width:0;flex:1}.file-name{font-size:16px;font-weight:550;overflow-wrap:anywhere;margin-bottom:4px}.file-meta{font-size:13px;color:var(--muted)}.download{padding:9px 12px;background:#d7e5ff;color:#17233c;border-radius:11px;text-decoration:none;font-weight:700;font-size:13px;white-space:nowrap}.del{background:transparent;border:0;color:#f1a39c;font-size:20px;padding:6px}.empty,.status{padding:20px;text-align:center;color:var(--muted);font-size:14px}.status.error{color:var(--red)}.uploadbar{display:none;margin-top:15px;border:1px solid var(--stroke);border-radius:16px;background:var(--card);padding:15px}.uploadbar.show{display:block}.progress{height:8px;background:#111a30;border-radius:20px;margin-top:11px;overflow:hidden}.progress>span{display:block;height:100%;width:0;background:#a9d6c5;transition:width .2s}.help{text-align:center;color:#9ba8bf;font-size:13px;line-height:1.6;margin-top:20px}.hide{display:none!important}dialog{background:#202c49;color:var(--text);border:1px solid #52617d;border-radius:18px;width:min(92vw,420px);padding:22px;box-shadow:0 15px 60px #0009}dialog::backdrop{background:#0009}.dialog-title{font-weight:650;font-size:19px;margin:0 0 8px}.dialog-copy{font-size:14px;color:var(--muted);line-height:1.55}.field{width:100%;margin-top:14px;background:#141d34;color:white;border:1px solid #465674;border-radius:11px;padding:12px;font-size:15px}.actions{display:flex;justify-content:flex-end;gap:10px;margin-top:18px}.actions button{border:0;border-radius:10px;padding:10px 14px;font-weight:600}.cancel{background:#313f5b;color:#e1e7f1}.save{background:#d7e5ff;color:#17233c}footer{border-top:2px solid #293550;text-align:center;color:#9ba8bf;padding:24px 16px 34px;font-size:13px;line-height:1.7}
+    @media(max-width:440px){.appbar{padding:0 18px;gap:15px}.admin{padding:9px 10px;font-size:13px}.folder{padding:16px;gap:11px}.folder-icon{width:48px;height:50px}.download{padding:8px 10px}.file{gap:10px;padding:11px}.tool-icons{gap:15px}}
   </style>
 </head>
 <body>
-  <header class="appbar"><span class="hamb" aria-hidden="true">☰</span><span class="app-title">Mjc9828E</span></header>
+  <header class="appbar"><span class="hamb" aria-hidden="true">☰</span><span class="title">Meus APKs</span><button class="admin" id="adminButton" type="button">Adicionar APK</button></header>
   <main>
-    <section class="folder" aria-label="Pasta pública Mjc9828E">
+    <section class="folder">
       <div class="folder-icon" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M4 9.5A2.5 2.5 0 0 1 6.5 7H13l3 3h9.5A2.5 2.5 0 0 1 28 12.5v12a2.5 2.5 0 0 1-2.5 2.5h-19A2.5 2.5 0 0 1 4 24.5z" fill="none" stroke="currentColor" stroke-width="2.2"/><path d="M6 13h20l-2 11H6z" fill="none" stroke="currentColor" stroke-width="2"/></svg></div>
-      <div class="folder-info">
-        <div class="folder-name">Mjc9828E</div>
-        <div class="folder-date"><svg width="15" height="16" viewBox="0 0 16 16"><path d="M4 2v2M12 2v2M2.5 5.5h11M3 3h10v11H3z" fill="none" stroke="currentColor" stroke-width="1.3"/></svg><span>26 de nov. de 2026,<br>05:24</span></div>
-        <div class="items"><svg width="15" height="16" viewBox="0 0 16 16"><path d="M5 2.5h5l3 3v8H5zM10 2.5v3h3M2.5 5v8.5h9" fill="none" stroke="currentColor" stroke-width="1.2"/></svg><span>1 item</span></div>
-        <span class="public"><span class="public-dot">◉</span> público</span>
-      </div>
-      <div class="folder-actions"><a class="icon-button" href="https://gofile.io/d/Mjc9828E" aria-label="Baixar" title="Baixar"><svg viewBox="0 0 24 24"><path d="M12 3v11m0 0 4-4m-4 4-4-4M5 15v4h14v-4"/><path d="M3 5v14" opacity="0"/></svg></a><span class="more" aria-hidden="true">⋮</span></div>
+      <div class="folder-info"><div class="folder-name">Biblioteca de APKs</div><div class="sub">Arquivos hospedados para baixar direto<br>Toque no botão de download de cada APK.</div><div class="count"><span>▤</span><span id="count">Carregando arquivos…</span></div><div class="pill">● Downloads públicos · upload protegido</div></div>
     </section>
-    <div class="toolbar" aria-label="Ferramentas dos arquivos"><span class="toolbar-left"><span class="check-box">✓</span></span><span class="toolbar-icons" aria-hidden="true">
-      <svg viewBox="0 0 24 24"><circle cx="10.8" cy="10.8" r="7.2"/><path d="m16 16 5 5"/></svg>
-      <svg viewBox="0 0 24 24"><path d="M3 6h18M6 12h12M9 18h6"/></svg>
-      <svg viewBox="0 0 24 24"><path d="M8 4v16m0-16-3 3m3-3 3 3M16 20V4m0 16 3-3m-3 3-3-3"/></svg>
-      <svg viewBox="0 0 24 24"><path d="M4 7h4M4 12h4M4 17h4M11 7h9M11 12h9M11 17h9"/><circle cx="6" cy="7" r="1"/><circle cx="6" cy="12" r="1"/><circle cx="6" cy="17" r="1"/></svg>
-      <svg viewBox="0 0 24 24"><path d="M20 11a8 8 0 0 0-14-5L4 8"/><path d="M4 4v4h4M4 13a8 8 0 0 0 14 5l2-2"/><path d="M20 20v-4h-4"/></svg>
-    </span></div>
-    <a class="file" href="https://gofile.io/d/Mjc9828E" aria-label="Abrir Signal-Connect.apk">
-      <span class="file-check" aria-hidden="true"></span>
-      <span class="file-icon" aria-hidden="true"><svg viewBox="0 0 24 32"><path d="M4 1.5h10l6 6v23H4z"/><path d="M14 1.5v6h6"/></svg></span>
-      <span class="file-info"><span class="file-name">Signal-Connect.apk</span><span class="file-date"><svg viewBox="0 0 16 16"><path d="M4 2v2M12 2v2M2.5 5.5h11M3 3h10v11H3z"/></svg>26 de nov. de 2026, 05:24</span><span class="file-size">271 MB</span></span>
-      <span class="file-more" aria-hidden="true">⋮</span>
-    </a>
-    <div class="report"><svg viewBox="0 0 16 16"><path d="M3 14V2M3.5 3h9l-2 3 2 3h-9"/></svg><span>Denunciar abuso</span></div>
-    <div class="spacer"></div>
+    <div class="toolbar"><span class="tool-left"><span>☑</span><span>Arquivos</span></span><span class="tool-icons" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="10.8" cy="10.8" r="7.2"/><path d="m16 16 5 5"/></svg><svg viewBox="0 0 24 24"><path d="M3 6h18M6 12h12M9 18h6"/></svg><svg viewBox="0 0 24 24"><path d="M8 4v16m0-16-3 3m3-3 3 3M16 20V4m0 16 3-3m-3 3-3-3"/></svg><svg viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></svg></span></div>
+    <div id="status" class="status">Buscando APKs…</div>
+    <section id="list" class="list" aria-live="polite"></section>
+    <section id="uploadbar" class="uploadbar"><div id="uploadText">Preparando envio…</div><div class="progress"><span id="progress"></span></div></section>
+    <p class="help">Os APKs são baixados diretamente daqui. O acesso para adicionar ou remover arquivos é protegido.</p>
   </main>
-  <footer>
-    <div class="footer-row"><a href="https://gofile.io">Lar</a><a href="https://gofile.io/terms">Termos de Serviço</a></div>
-    <div class="footer-row"><a href="https://gofile.io/privacy">política de Privacidade</a><a href="https://gofile.io/abuse">Política de abuso</a></div>
-    <div class="footer-row"><a href="https://gofile.io/contact">Contato</a></div>
-    <div class="footer-copy">WOJTEK SAS © 2026<br>Feito com ✓ / <span class="heart">♥</span> pela equipe Gofile</div>
-  </footer>
-  <div class="feedback" aria-hidden="true"><span>♟</span></div>
+  <footer>Biblioteca pessoal de aplicativos Android</footer>
+  <input id="filePicker" class="hide" type="file" accept=".apk,application/vnd.android.package-archive">
+  <dialog id="loginDialog"><h2 class="dialog-title">Acesso de administrador</h2><p class="dialog-copy">Digite sua chave privada para adicionar ou remover APKs. Ela fica salva somente nesta sessão do navegador.</p><input id="adminKey" class="field" type="password" autocomplete="current-password" placeholder="Chave privada"><div class="actions"><button class="cancel" id="cancelLogin" type="button">Cancelar</button><button class="save" id="saveLogin" type="button">Entrar</button></div></dialog>
+  <script>
+    const API="https://luiz-apk-library.contacto-kakashigamesofc24.workers.dev";
+    const $=id=>document.getElementById(id);let adminKey=sessionStorage.getItem("apkLibraryKey")||"";
+    const esc=s=>String(s??"").replace(/[&<>\"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+    const size=n=>{if(!Number.isFinite(n))return "";if(n<1024*1024)return Math.round(n/1024)+" KB";return (n/1024/1024).toFixed(n<10*1024*1024?1:0)+" MB"};
+    function showStatus(text,error=false){$("status").textContent=text;$("status").className="status"+(error?" error":"")}
+    async function api(path,opts={}){const headers=new Headers(opts.headers||{});if(adminKey)headers.set("Authorization","Bearer "+adminKey);const r=await fetch(API+path,{...opts,headers});let d={};try{d=await r.json()}catch{}if(!r.ok)throw new Error(d.error||"Falha na solicitação ("+r.status+")");return d}
+    async function loadFiles(){try{const d=await api("/api/files");const files=d.files||[];$("count").textContent=files.length+(files.length===1?" arquivo":" arquivos");$("status").className="status";$("status").textContent=files.length?"":"Nenhum APK foi adicionado ainda.";$("list").innerHTML=files.map(f=>{const href=API+"/download/"+encodeURIComponent(f.key);const date=f.uploadedAt?new Date(f.uploadedAt).toLocaleDateString("pt-BR"):"APK para Android";return `<article class="file"><span class="doc" aria-hidden="true"><svg viewBox="0 0 24 32"><path d="M4 1.5h10l6 6v23H4z"/><path d="M14 1.5v6h6"/></svg></span><div class="file-info"><div class="file-name">${esc(f.name)}</div><div class="file-meta">${esc(date)} · ${size(Number(f.size))}</div></div><a class="download" href="${href}" download>Baixar</a>${adminKey?`<button class="del" type="button" data-delete="${encodeURIComponent(f.key)}" aria-label="Remover ${esc(f.name)}">⋮</button>`:""}</article>`}).join("");if(adminKey)document.querySelectorAll("[data-delete]").forEach(b=>b.addEventListener("click",async()=>{if(!confirm("Remover este APK da biblioteca?"))return;try{await api("/api/files/"+b.dataset.delete,{method:"DELETE"});await loadFiles()}catch(e){showStatus(e.message,true)}}))}catch(e){showStatus("Não consegui carregar os arquivos. "+e.message,true);$("count").textContent="Serviço indisponível"}}
+    function askAdmin(){if(adminKey){$("filePicker").click();return}$("adminKey").value="";$("loginDialog").showModal()}
+    $("adminButton").addEventListener("click",askAdmin);$("cancelLogin").addEventListener("click",()=>$("loginDialog").close());$("saveLogin").addEventListener("click",async()=>{const k=$("adminKey").value.trim();if(!k)return;adminKey=k;try{await api("/api/admin-check");sessionStorage.setItem("apkLibraryKey",k);$("loginDialog").close();$("adminButton").textContent="Adicionar APK";await loadFiles();$("filePicker").click()}catch(e){adminKey="";showStatus("Chave inválida ou serviço indisponível.",true)}});
+    $("filePicker").addEventListener("change",async()=>{const file=$("filePicker").files?.[0];$("filePicker").value="";if(!file)return;if(!file.name.toLowerCase().endsWith(".apk")){showStatus("Escolha um arquivo .apk.",true);return}$("uploadbar").classList.add("show");$("uploadText").textContent="Preparando "+file.name;$("progress").style.width="0%";try{const start=await api("/api/upload/start",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({name:file.name,size:file.size})});const parts=[];for(let offset=0,partNumber=1;offset<file.size;offset+=start.partSize,partNumber++){const chunk=file.slice(offset,Math.min(offset+start.partSize,file.size));$("uploadText").textContent=`Enviando ${file.name} — parte ${partNumber}`;const res=await api(`/api/upload/part?key=${encodeURIComponent(start.key)}&uploadId=${encodeURIComponent(start.uploadId)}&partNumber=${partNumber}`,{method:"PUT",headers:{"Content-Type":"application/octet-stream"},body:chunk});parts.push(res);$("progress").style.width=Math.round(Math.min(file.size,offset+chunk.size)/file.size*100)+"%"}await api("/api/upload/complete",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({key:start.key,uploadId:start.uploadId,parts})});$("uploadText").textContent="APK enviado!";await loadFiles()}catch(e){$("uploadText").textContent="Falha no envio: "+e.message;showStatus(e.message,true)}setTimeout(()=>$("uploadbar").classList.remove("show"),6000)});
+    loadFiles();
+  </script>
 </body>
 </html>
